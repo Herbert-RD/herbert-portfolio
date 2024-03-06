@@ -4,7 +4,7 @@ export const Container =  styled.button`
   width: 100%;
 
   align-items: center;
-  background-color: ${({theme}) => theme.COLORS.ORANGE};
+  background-color: ${({theme}) => theme.COLORS.RED};
   color: black;
   padding: 16px;
   border: none;

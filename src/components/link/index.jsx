@@ -1,9 +1,9 @@
 import { Component } from "./style.js"
 
-export function Link() {
+export function Link({name}) {
   return (
     <Component>
-      Test
+      {name}
     </Component>
   )
 }

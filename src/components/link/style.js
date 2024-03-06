@@ -10,13 +10,14 @@ export const Component =
       transition: transform  0.5s, background-color 0.5s;
 
       margin: 6px;
-
       padding: 0 8px;
+      
+      text-transform: uppercase;
 
 
       &:hover{
-        background-color: white;
-        color: ${({theme}) => theme.COLORS.BACKGROUND_800};
+        background-color: ${({theme}) => theme.COLORS.RED};
+        color: ${({theme}) => theme.COLORS.BACKGROUND};
         transform: scale(1.2);
 
         border-radius: 2px;

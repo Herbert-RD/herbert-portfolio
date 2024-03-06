@@ -9,7 +9,16 @@ export function Details(){
       <h1>Hello World</h1>
       <span>Binho Marabales</span>
       <Button name="Click-me"/>   
-      <Link />
+
+
+      <div className="header-nav">
+        <div><p>HR</p></div>
+        <div id="nav-links">
+          <Link name="Artworks"/>
+          <Link name="Projects"/>
+          <Link name="Contact"/>
+        </div>
+      </div>
     </Container>
   )
 }
