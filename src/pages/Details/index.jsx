@@ -2,6 +2,7 @@ import { Container } from  "./style.js";
 import { Button } from "../../components/button/index.jsx"
 import { Link } from "../../components/link/index.jsx"
 import { HeroSection } from "../../components/hero_section/index.jsx"
+import { OptionsModal } from "../../components/options_modal/index.jsx"
 
 
 export function Details(){
@@ -18,6 +19,8 @@ export function Details(){
           <Link name="Contact"/>
         </div>
       </div> */}
+
+        <OptionsModal />
         <HeroSection 
           image=""
           name="Herbert Richard"
