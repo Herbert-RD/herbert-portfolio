@@ -18,7 +18,7 @@ export const Component =
       &:hover{
         background-color: ${({theme}) => theme.COLORS.RED};
         color: ${({theme}) => theme.COLORS.BACKGROUND};
-        transform: scale(1.2);
+        transform: scale(1.1);
 
         border-radius: 2px;
       }
