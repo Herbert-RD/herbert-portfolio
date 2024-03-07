@@ -5,18 +5,14 @@ import {useState} from 'react';
 
 export function OptionsModal(){
 
-  // function closeModal(event){
-  //   const Component = document.getElementById('modal-component')
-  //   Component.style.display = "none"
-  // }
 
-  const [modalVisible, setModalVisible] = useState(false)
+  const [modalVisible, setModalVisible] = useState(true)
   
   return (
-    <Component id="modal-component" style={{display: modalVisible ? "none" : "flex"}}>
+    <Component id="modal-component" style={{display: modalVisible ? "flex" : "none"}}>
       <div id='modal' >
         <div id='button-wrapper'>
-          <button><img src={close} alt="" onClick={() => setModalVisible(modalVisible ? false : true)}/></button>
+          <button onClick={() => setModalVisible(modalVisible ? false : true)}><img src={close} alt="" /></button>
         </div>
         <a href="#">Artworks</a>
         <a href="#">Experience</a>
