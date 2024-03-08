@@ -3,6 +3,7 @@ import { Button } from "../../components/button/index.jsx"
 import { Link } from "../../components/link/index.jsx"
 import { HeroSection } from "../../components/hero_section/index.jsx"
 import { OptionsModal } from "../../components/options_modal/index.jsx"
+import { Line } from "../../components/line/index.jsx"
 
 
 export function Details(){
@@ -33,6 +34,8 @@ export function Details(){
           instagramLink="https://www.instagram.com/"
           pinterestLink="https://br.pinterest.com/"
         />
+
+        <Line />
       </header>
       <Button name="Click-me"/>   
     </Container>
