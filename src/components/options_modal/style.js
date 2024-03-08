@@ -1,12 +1,16 @@
 import styled from 'styled-components';
 
-export const Component = styled.div`
+export const Overlay = styled.div`
 
   width: 100%;
   height: 100%;
 
   background-color: rgb(0, 0, 0, 0.8);
-  position: absolute;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
 
   display: flex;
   flex-direction: column;
@@ -14,6 +18,7 @@ export const Component = styled.div`
   justify-content: center;
 
   color: white;
+
 
   #modal {
     position: absolute;
@@ -29,6 +34,7 @@ export const Component = styled.div`
     width: 80%;
 
     border-radius: 2px;
+    
   }
   
   #modal a {
@@ -56,4 +62,13 @@ export const Component = styled.div`
     align-items: center;
 
   }
+`
+
+export const Component = styled.div`
+
+  button {
+    background: none;
+    border: none;
+  }
+
 `

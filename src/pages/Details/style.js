@@ -8,7 +8,7 @@ export const Container = styled.div`
     gap: 2.5vw;
   }
 
-
+  
 
   .header-nav{
     display: flex;

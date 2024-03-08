@@ -11,16 +11,20 @@ export function Details(){
 
 
       <header>
-      {/* <div className="header-nav">
+      <div className="header-nav">
         <div><p><a href="#">HR</a></p></div>
-        <div id="nav-links">
+
+        <OptionsModal />
+
+        {/* <div id="nav-links">
           <Link name="Artworks"/>
           <Link name="Projects"/>
           <Link name="Contact"/>
-        </div>
-      </div> */}
+        </div> */}
+      </div>
 
-        <OptionsModal />
+
+
         <HeroSection 
           image=""
           name="Herbert Richard"
