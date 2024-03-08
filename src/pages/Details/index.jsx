@@ -4,6 +4,7 @@ import { Link } from "../../components/link/index.jsx"
 import { HeroSection } from "../../components/hero_section/index.jsx"
 import { OptionsModal } from "../../components/options_modal/index.jsx"
 import { Line } from "../../components/line/index.jsx"
+import {ClientSection} from "../../components/client_section/index.jsx"
 
 
 export function Details(){
@@ -35,8 +36,10 @@ export function Details(){
           pinterestLink="https://br.pinterest.com/"
         />
 
-        <Line />
       </header>
+      <Line />
+      <ClientSection />
+
       <Button name="Click-me"/>   
     </Container>
   )
