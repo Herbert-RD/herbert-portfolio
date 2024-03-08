@@ -15,7 +15,6 @@ export const Component = styled.div`
 
   color: white;
 
-
   #modal {
     position: absolute;
 

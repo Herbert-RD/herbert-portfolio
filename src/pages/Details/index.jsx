@@ -3,12 +3,9 @@ import { Button } from "../../components/button/index.jsx"
 import { Link } from "../../components/link/index.jsx"
 import { HeroSection } from "../../components/hero_section/index.jsx"
 import { OptionsModal } from "../../components/options_modal/index.jsx"
-import {useState} from 'react'
 
 
 export function Details(){
-  const [modalVisible, setModalVisible] = useState(false)
-
   return (
     <Container>
 
@@ -23,17 +20,7 @@ export function Details(){
         </div>
       </div> */}
 
-        <div className="header-nav">
-          <div><p><a href="#">HR</a></p></div>
-          <button onClick={() => {
-            setModalVisible(modalVisible ? false  : true)
-            console.log(modalVisible)
-          }}>Open Modal</button>
-        </div>
-        <div className="modal-wrapper" >
-          <OptionsModal  />
-        </div>
-
+        <OptionsModal />
         <HeroSection 
           image=""
           name="Herbert Richard"
